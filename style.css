@@ -7,5 +7,6 @@ body {
 }
 
 .header-img {
-    width: 100%;
+    width: 50vw;
+    height: 100vh;
 }
