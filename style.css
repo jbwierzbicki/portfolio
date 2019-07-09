@@ -1,10 +1,11 @@
 body {
-
+    width: 100%;
 }
 
 h1 {
-    font-size: 4.5em;
     text-align: center;
+    font-size: inherit;
+
 }
 
 .custom-navbar {
@@ -12,14 +13,19 @@ h1 {
     padding: 3.5vw 3.5vw 0;
 }
 
+.navbar-brand {
+    padding: 0 1.75vw;
+    margin-right: 0;
+}
+
 .nav-item {
-    padding-left: 1.75vw;
+    padding: 0 1.75vw;
     font-size: 18px;
 }
 
 .name-text {
-    padding: 0 7vw;
-    padding: 0 1.75vw;
+    padding: 0 5.25vw;
+
 }
 
 .header-img {
@@ -35,9 +41,21 @@ h1 {
 .header-right {
     padding-left: 0px;
     padding-right: 0px;
+    height: 100vh;
+    background-image: url(images/header-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
 }
 
 /* Flex Font */
 .flexFont {
-    width: 95%;
+    width:100%;
+
+}
+
+/* Bootstrap Mods */
+.row {
+    margin-left: 0;
+    margin-right: 0;
 }
