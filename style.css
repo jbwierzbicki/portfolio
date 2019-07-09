@@ -4,12 +4,21 @@ body {
 
 h1 {
     text-align: center;
-    font-size: inherit;
+    font-size: 100%;
     font-family: 'Nunito', sans-serif;
     line-height: 110.4%;
     font-weight: bold;
     color: #082D3A;
+}
 
+h6 {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 141.8%;
+    color: #636363;
+    text-align: center;
 }
 
 .custom-navbar {
@@ -28,9 +37,39 @@ h1 {
     color: #082D3A;
 }
 
-.name-text {
+.header-nametext {
     padding: 0 5.25vw;
     padding-top: 14.6vh;
+}
+
+.header-subtext {
+    padding-top: 3.8vh;
+    padding-bottom: 3.8vh;
+    padding-left: 11vw;
+    padding-right: 11vw;
+    font-size: 100%;
+}
+
+.header-button {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 32.4vh;
+}
+
+.btn-viewwork {
+    width: 135px;
+    height: 48px;
+    background: #267491;
+    border-radius: 30px;
+    border-color:#267491;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    /* identical to box height, or 18px */
+    text-align: center;
+    color: #FFFFFF;
 }
 
 .header-img {
@@ -54,12 +93,13 @@ h1 {
 }
 
 /* Flex Font */
-.flexFont {
-    width:100%;
 
+.flexFont {
+    width: 100%;    
 }
 
 /* Bootstrap Mods */
+
 .row {
     margin-left: 0;
     margin-right: 0;
