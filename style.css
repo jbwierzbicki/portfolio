@@ -5,6 +5,10 @@ body {
 h1 {
     text-align: center;
     font-size: inherit;
+    font-family: 'Nunito', sans-serif;
+    line-height: 110.4%;
+    font-weight: bold;
+    color: #082D3A;
 
 }
 
@@ -14,18 +18,19 @@ h1 {
 }
 
 .navbar-brand {
-    padding: 0 1.75vw;
     margin-right: 0;
 }
 
 .nav-item {
     padding: 0 1.75vw;
     font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    color: #082D3A;
 }
 
 .name-text {
     padding: 0 5.25vw;
-
+    padding-top: 14.6vh;
 }
 
 .header-img {
