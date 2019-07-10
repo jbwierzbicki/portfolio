@@ -15,7 +15,7 @@ h6 {
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: 600;
-    font-size: 25px;
+    font-size: 30%;
     line-height: 141.8%;
     color: #636363;
     text-align: center;
@@ -47,7 +47,6 @@ h6 {
     padding-bottom: 3.8vh;
     padding-left: 11vw;
     padding-right: 11vw;
-    font-size: 100%;
 }
 
 .header-button {
@@ -90,6 +89,29 @@ h6 {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+}
+
+.explore-section {
+    background-image: url(images/explore-background.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 31.35vh;
+    z-index: 3;
+    position: absolute;
+    margin-top: 83.5vh;
+    width: 100%;
+}
+
+.explore-text {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.71vh;
+    line-height: 141.8%;
+    color: #636363;
+    text-align: center;
+    padding-top: 9.24vh;
 }
 
 /* Flex Font */
