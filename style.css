@@ -1,128 +1,114 @@
+/* Old CSS */
 body {
-    width: 100%;
-}
+  width: 100%; }
 
 h1 {
-    text-align: center;
-    font-size: 100%;
-    font-family: 'Nunito', sans-serif;
-    line-height: 110.4%;
-    font-weight: bold;
-    color: #082D3A;
-}
+  text-align: center;
+  font-size: 100%;
+  font-family: 'Nunito', sans-serif;
+  line-height: 110.4%;
+  font-weight: bold;
+  color: #082D3A; }
 
 h6 {
-    font-family: 'Open Sans', sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 30%;
-    line-height: 141.8%;
-    color: #636363;
-    text-align: center;
-}
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30%;
+  line-height: 141.8%;
+  color: #636363;
+  text-align: center; }
 
 .custom-navbar {
-    background-color: white !important;
-    padding: 3.5vw 3.5vw 0;
-}
+  background-color: white !important;
+  padding: 3.5vw 3.5vw 0; }
 
 .navbar-brand {
-    margin-right: 0;
-}
+  margin-right: 0; }
 
 .nav-item {
-    padding: 0 1.75vw;
-    font-size: 18px;
-    font-family: 'Open Sans', sans-serif;
-    color: #082D3A;
-}
+  padding: 0 1.75vw;
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+  color: #082D3A; }
 
 .header-nametext {
-    padding: 0 5.25vw;
-    padding-top: 14.6vh;
-}
+  padding: 0 5.25vw;
+  padding-top: 14.6vh; }
 
 .header-subtext {
-    padding-top: 3.8vh;
-    padding-bottom: 3.8vh;
-    padding-left: 11vw;
-    padding-right: 11vw;
-}
+  padding-top: 3.8vh;
+  padding-bottom: 3.8vh;
+  padding-left: 11vw;
+  padding-right: 11vw; }
 
 .header-button {
-    display: flex;
-    justify-content: center;
-    padding-bottom: 32.4vh;
-}
+  display: flex;
+  justify-content: center;
+  padding-bottom: 32.4vh; }
 
 .btn-viewwork {
-    width: 135px;
-    height: 48px;
-    background: #267491;
-    border-radius: 30px;
-    border-color:#267491;
-    font-family: 'Nunito', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 100%;
-    /* identical to box height, or 18px */
-    text-align: center;
-    color: #FFFFFF;
-}
+  width: 18.75%;
+  height: 5.19%;
+  background: #267491;
+  border-radius: 50px;
+  border-color: #267491;
+  font-family: 'Nunito', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 6%;
+  /* identical to box height, or 18px */
+  text-align: center;
+  color: #FFFFFF; }
 
 .header-img {
-    width: 100%;
-    height: 100vh;
-}
+  width: 100%;
+  height: 100vh; }
 
 .header-left {
-    padding-left: 0px;
-    padding-right: 0px;
-}
+  padding-left: 0px;
+  padding-right: 0px; }
 
 .header-right {
-    padding-left: 0px;
-    padding-right: 0px;
-    height: 100vh;
-    background-image: url(images/header-img.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-}
+  padding-left: 0px;
+  padding-right: 0px;
+  height: 110vh;
+  background-image: url(images/header-img.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center; }
 
 .explore-section {
-    background-image: url(images/explore-background.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    height: 31.35vh;
-    z-index: 3;
-    position: absolute;
-    margin-top: 83.5vh;
-    width: 100%;
-}
+  background-image: url(images/explore-background.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 31.35vh;
+  z-index: 50;
+  position: relative;
+  margin-top: -30vh;
+  width: 100%; }
 
 .explore-text {
-    font-family: 'Open Sans', sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 2.71vh;
-    line-height: 141.8%;
-    color: #636363;
-    text-align: center;
-    padding-top: 9.24vh;
-}
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2.71vh;
+  line-height: 141.8%;
+  color: #636363;
+  text-align: center;
+  padding-top: 14.24vh; }
+
+#busybus {
+  z-index: 4; }
 
 /* Flex Font */
-
 .flexFont {
-    width: 100%;    
-}
+  width: 100%; }
 
 /* Bootstrap Mods */
-
 .row {
-    margin-left: 0;
-    margin-right: 0;
-}
+  margin-left: 0;
+  margin-right: 0; }
+
+/*# sourceMappingURL=style.css.map */
