@@ -10,69 +10,61 @@ $h6-fontsize: 20.83px;
 
 @media (min-width: $screen-sm-min) {
   h1 {
-    text-align: center;
     font-size: $h1-fontsize*0.48;
-    font-family: "Nunito", sans-serif;
-    line-height: 110.4%;
-    font-weight: bold;
-    color: #082d3a;
   }
 
   h6 {
-    font-family: "Open Sans", sans-serif;
-    font-style: normal;
-    font-weight: 600;
     font-size: $h6-fontsize*0.48;
-    line-height: 141.8%;
-    color: #636363;
-    text-align: center;
   }
 
   .explore-text {
-    font-family: "Open Sans", sans-serif;
-    font-style: normal;
-    font-weight: 600;
     font-size: $h6-fontsize*0.48;
-    line-height: 141.8%;
-    color: #636363;
-    text-align: center;
-    padding-top: 14.24vh;
   }
 }
 
 @media (min-width: $screen-xlg-min) {
   h1 {
-    text-align: center;
     font-size: $h1-fontsize;
-    font-family: "Nunito", sans-serif;
-    line-height: 110.4%;
-    font-weight: bold;
-    color: #082d3a;
   }
 
   h6 {
-    font-family: "Open Sans", sans-serif;
-    font-style: normal;
-    font-weight: 600;
     font-size: $h6-fontsize;
-    line-height: 141.8%;
-    color: #636363;
-    text-align: center;
   }
 
   .explore-text {
-    font-family: "Open Sans", sans-serif;
-    font-style: normal;
-    font-weight: 600;
     font-size: $h6-fontsize;
-    line-height: 141.8%;
-    color: #636363;
-    text-align: center;
-    padding-top: 14.24vh;
   }
 }
 
 /* Global CSS */
+h1 {
+  text-align: center;
+  font-family: "Nunito", sans-serif;
+  line-height: 110.4%;
+  font-weight: bold;
+  color: #082d3a;
+}
+
+h6 {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 141.8%;
+  color: #636363;
+  text-align: center;
+}
+
+.explore-text {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 141.8%;
+  color: #636363;
+  text-align: center;
+  padding-top: 14.24vh;
+}
+
+
 body {
   width: 100%;
 }
