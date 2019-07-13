@@ -1,23 +1,33 @@
-/* Old CSS */
+@media (min-width: 1200px) {
+  h1 {
+    text-align: center;
+    font-size: 80px;
+    font-family: "Nunito", sans-serif;
+    line-height: 110.4%;
+    font-weight: bold;
+    color: #082d3a; }
+
+  h6 {
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30%;
+    line-height: 141.8%;
+    color: #636363;
+    text-align: center; }
+
+  .explore-text {
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.71vh;
+    line-height: 141.8%;
+    color: #636363;
+    text-align: center;
+    padding-top: 14.24vh; } }
+/* Global CSS */
 body {
   width: 100%; }
-
-h1 {
-  text-align: center;
-  font-size: 100%;
-  font-family: 'Nunito', sans-serif;
-  line-height: 110.4%;
-  font-weight: bold;
-  color: #082D3A; }
-
-h6 {
-  font-family: 'Open Sans', sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 30%;
-  line-height: 141.8%;
-  color: #636363;
-  text-align: center; }
 
 .custom-navbar {
   background-color: white !important;
@@ -29,8 +39,8 @@ h6 {
 .nav-item {
   padding: 0 1.75vw;
   font-size: 18px;
-  font-family: 'Open Sans', sans-serif;
-  color: #082D3A; }
+  font-family: "Open Sans", sans-serif;
+  color: #082d3a; }
 
 .header-nametext {
   padding: 0 5.25vw;
@@ -53,13 +63,13 @@ h6 {
   background: #267491;
   border-radius: 50px;
   border-color: #267491;
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 6%;
   /* identical to box height, or 18px */
   text-align: center;
-  color: #FFFFFF; }
+  color: #ffffff; }
 
 .header-img {
   width: 100%;
@@ -87,23 +97,6 @@ h6 {
   z-index: 50;
   position: relative;
   margin-top: -30vh;
-  width: 100%; }
-
-.explore-text {
-  font-family: 'Open Sans', sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 2.71vh;
-  line-height: 141.8%;
-  color: #636363;
-  text-align: center;
-  padding-top: 14.24vh; }
-
-#busybus {
-  z-index: 4; }
-
-/* Flex Font */
-.flexFont {
   width: 100%; }
 
 /* Bootstrap Mods */

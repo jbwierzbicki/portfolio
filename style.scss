@@ -1,114 +1,33 @@
+$screen-sm-min: 576px;
+$screen-md-min: 768px;
+$screen-lg-min: 992px;
+$screen-xlg-min: 1200px;
+$screen-4klg-min: 2650px;
 
+$font-size: 15px;
 
-/* Old CSS */
-
-body {
-    width: 100%;
-
-}
-
-h1 {
+@media (min-width: $screen-xlg-min) {
+  h1 {
     text-align: center;
-    font-size: 100%;
-    font-family: 'Nunito', sans-serif;
+    font-size: 80px;
+    font-family: "Nunito", sans-serif;
     line-height: 110.4%;
     font-weight: bold;
-    color: #082D3A;
-}
+    color: #082d3a;
+  }
 
-h6 {
-    font-family: 'Open Sans', sans-serif;
+  h6 {
+    font-family: "Open Sans", sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 30%;
     line-height: 141.8%;
     color: #636363;
     text-align: center;
-}
+  }
 
-.custom-navbar {
-    background-color: white !important;
-    padding: 3.5vw 3.5vw 0;
-}
-
-.navbar-brand {
-    margin-right: 0;
-}
-
-.nav-item {
-    padding: 0 1.75vw;
-    font-size: 18px;
-    font-family: 'Open Sans', sans-serif;
-    color: #082D3A;
-}
-
-.header-nametext {
-    padding: 0 5.25vw;
-    padding-top: 14.6vh;
-}
-
-.header-subtext {
-    padding-top: 3.8vh;
-    padding-bottom: 3.8vh;
-    padding-left: 11vw;
-    padding-right: 11vw;
-}
-
-.header-button {
-    display: flex;
-    justify-content: center;
-    padding-bottom: 32.4vh;
-}
-
-.btn-viewwork {
-    width: 18.75%;
-    height: 5.19%;
-    background: #267491;
-    border-radius: 50px;
-    border-color:#267491;
-    font-family: 'Nunito', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 6%;
-    /* identical to box height, or 18px */
-    text-align: center;
-    color: #FFFFFF;
-}
-
-.header-img {
-    width: 100%;
-    height: 100vh;
-}
-
-.header-left {
-    padding-left: 0px;
-    padding-right: 0px;
-}
-
-.header-right {
-    padding-left: 0px;
-    padding-right: 0px;
-    height: 110vh;
-    background-image: url(images/header-img.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-}
-
-.explore-section {
-    background-image: url(images/explore-background.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    height: 31.35vh;
-    z-index: 50;
-    position: relative;
-    margin-top: -30vh;
-    width: 100%;
-}
-
-.explore-text {
-    font-family: 'Open Sans', sans-serif;
+  .explore-text {
+    font-family: "Open Sans", sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 2.71vh;
@@ -116,21 +35,97 @@ h6 {
     color: #636363;
     text-align: center;
     padding-top: 14.24vh;
+  }
 }
 
-#busybus {
-    z-index: 4;
+/* Global CSS */
+body {
+  width: 100%;
 }
 
-/* Flex Font */
-
-.flexFont {
-    width: 100%;    
+.custom-navbar {
+  background-color: white !important;
+  padding: 3.5vw 3.5vw 0;
 }
 
+.navbar-brand {
+  margin-right: 0;
+}
+
+.nav-item {
+  padding: 0 1.75vw;
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  color: #082d3a;
+}
+
+.header-nametext {
+  padding: 0 5.25vw;
+  padding-top: 14.6vh;
+}
+
+.header-subtext {
+  padding-top: 3.8vh;
+  padding-bottom: 3.8vh;
+  padding-left: 11vw;
+  padding-right: 11vw;
+}
+
+.header-button {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 32.4vh;
+}
+
+.btn-viewwork {
+  width: 18.75%;
+  height: 5.19%;
+  background: #267491;
+  border-radius: 50px;
+  border-color: #267491;
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 6%;
+  /* identical to box height, or 18px */
+  text-align: center;
+  color: #ffffff;
+}
+
+.header-img {
+  width: 100%;
+  height: 100vh;
+}
+
+.header-left {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.header-right {
+  padding-left: 0px;
+  padding-right: 0px;
+  height: 110vh;
+  background-image: url(images/header-img.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.explore-section {
+  background-image: url(images/explore-background.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 31.35vh;
+  z-index: 50;
+  position: relative;
+  margin-top: -30vh;
+  width: 100%;
+}
 /* Bootstrap Mods */
 
 .row {
-    margin-left: 0;
-    margin-right: 0;
+  margin-left: 0;
+  margin-right: 0;
 }
