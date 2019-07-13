@@ -1,3 +1,30 @@
+@media (min-width: 576px) {
+  h1 {
+    text-align: center;
+    font-size: 38.4px;
+    font-family: "Nunito", sans-serif;
+    line-height: 110.4%;
+    font-weight: bold;
+    color: #082d3a; }
+
+  h6 {
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 9.9984px;
+    line-height: 141.8%;
+    color: #636363;
+    text-align: center; }
+
+  .explore-text {
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 9.9984px;
+    line-height: 141.8%;
+    color: #636363;
+    text-align: center;
+    padding-top: 14.24vh; } }
 @media (min-width: 1200px) {
   h1 {
     text-align: center;
@@ -11,7 +38,7 @@
     font-family: "Open Sans", sans-serif;
     font-style: normal;
     font-weight: 600;
-    font-size: 30%;
+    font-size: 20.83px;
     line-height: 141.8%;
     color: #636363;
     text-align: center; }
@@ -20,7 +47,7 @@
     font-family: "Open Sans", sans-serif;
     font-style: normal;
     font-weight: 600;
-    font-size: 2.71vh;
+    font-size: 20.83px;
     line-height: 141.8%;
     color: #636363;
     text-align: center;
