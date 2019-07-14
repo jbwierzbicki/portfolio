@@ -42,5 +42,5 @@
 
 })( jQuery );
 
-jQuery("h1").fitText(0.591); 
-jQuery("h6").fitText(1.61); 
+jQuery("h1").fitText(0.4762); 
+jQuery("h6").fitText(1.29); 
