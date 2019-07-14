@@ -120,8 +120,8 @@ body {
 .header-subtext {
   padding-top: 3.8vh;
   padding-bottom: 3.8vh;
-  padding-left: 11vw;
-  padding-right: 11vw; }
+  padding-left: 5.25vw;
+  padding-right: 5.25vw; }
 
 .header-button {
   display: flex;
