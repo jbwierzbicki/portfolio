@@ -1,23 +1,77 @@
-@media (min-width: 576px) {
+/*
+@media (min-width: $screen-sm-min) {
   h1 {
-    font-size: 38.4px; }
+    font-size: $h1-fontsize*0.4;
+  }
 
   h6 {
-    font-size: 9.9984px; }
+    font-size: $h6-fontsize*0.4;
+  }
 
   .explore-text {
-    font-size: 9.9984px; } }
-@media (min-width: 1200px) {
+    font-size: $h6-fontsize*0.4;
+  }
+}
+
+@media (min-width: $screen-md-min) {
   h1 {
-    font-size: 80px; }
+    font-size: $h1-fontsize*0.53 !important;
+  }
 
   h6 {
-    font-size: 20.83px; }
+    font-size: $h6-fontsize*0.53 !important;
+  }
 
   .explore-text {
-    font-size: 20.83px; } }
+    font-size: $h6-fontsize*0.53 !important;
+  }
+}
+
+@media (min-width: $screen-lg-min) {
+  h1 {
+    font-size: $h1-fontsize*0.71 !important;
+  }
+
+  h6 {
+    font-size: $h6-fontsize*0.71 !important;
+  }
+
+  .explore-text {
+    font-size: $h6-fontsize*0.71 !important;
+  }
+}
+
+@media (min-width: $screen-xlg-min) {
+  h1 {
+    font-size: $h1-fontsize !important;
+  }
+
+  h6 {
+    font-size: $h6-fontsize !important;
+  }
+
+  .explore-text {
+    font-size: $h6-fontsize !important;
+  }
+}
+
+@media (min-width: $screen-4klg-min) {
+  h1 {
+    font-size: $h1-fontsize*1.78 !important;
+  }
+
+  h6 {
+    font-size: $h6-fontsize*1.78 !important;
+  }
+
+  .explore-text {
+    font-size: $h6-fontsize*1.78 !important;
+  }
+}
+*/
 /* Global CSS */
 h1 {
+  font-size: 96px;
   text-align: center;
   font-family: "Nunito", sans-serif;
   line-height: 110.4%;
@@ -25,6 +79,7 @@ h1 {
   color: #082d3a; }
 
 h6 {
+  font-size: 25px;
   font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: 600;
@@ -33,6 +88,7 @@ h6 {
   text-align: center; }
 
 .explore-text {
+  font-size: 10px;
   font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: 600;

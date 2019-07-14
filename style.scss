@@ -1,43 +1,89 @@
+//Screen Sizes
 $screen-sm-min: 576px;
 $screen-md-min: 768px;
-$screen-lg-min: 992px;
-$screen-xlg-min: 1200px;
-$screen-4klg-min: 2650px;
+$screen-lg-min: 1024px;
+$screen-xlg-min: 1440px;
+$screen-4klg-min: 2560px;
 
 //Font Sizes
-$h1-fontsize: 80px;
-$h6-fontsize: 20.83px;
+$h1-fontsize: 96px;
+$h6-fontsize: 25px;
 
+//Media Queries
+/*
 @media (min-width: $screen-sm-min) {
   h1 {
-    font-size: $h1-fontsize*0.48;
+    font-size: $h1-fontsize*0.4;
   }
 
   h6 {
-    font-size: $h6-fontsize*0.48;
+    font-size: $h6-fontsize*0.4;
   }
 
   .explore-text {
-    font-size: $h6-fontsize*0.48;
+    font-size: $h6-fontsize*0.4;
+  }
+}
+
+@media (min-width: $screen-md-min) {
+  h1 {
+    font-size: $h1-fontsize*0.53 !important;
+  }
+
+  h6 {
+    font-size: $h6-fontsize*0.53 !important;
+  }
+
+  .explore-text {
+    font-size: $h6-fontsize*0.53 !important;
+  }
+}
+
+@media (min-width: $screen-lg-min) {
+  h1 {
+    font-size: $h1-fontsize*0.71 !important;
+  }
+
+  h6 {
+    font-size: $h6-fontsize*0.71 !important;
+  }
+
+  .explore-text {
+    font-size: $h6-fontsize*0.71 !important;
   }
 }
 
 @media (min-width: $screen-xlg-min) {
   h1 {
-    font-size: $h1-fontsize;
+    font-size: $h1-fontsize !important;
   }
 
   h6 {
-    font-size: $h6-fontsize;
+    font-size: $h6-fontsize !important;
   }
 
   .explore-text {
-    font-size: $h6-fontsize;
+    font-size: $h6-fontsize !important;
   }
 }
 
+@media (min-width: $screen-4klg-min) {
+  h1 {
+    font-size: $h1-fontsize*1.78 !important;
+  }
+
+  h6 {
+    font-size: $h6-fontsize*1.78 !important;
+  }
+
+  .explore-text {
+    font-size: $h6-fontsize*1.78 !important;
+  }
+}
+*/
 /* Global CSS */
 h1 {
+  font-size: 96px;
   text-align: center;
   font-family: "Nunito", sans-serif;
   line-height: 110.4%;
@@ -46,6 +92,7 @@ h1 {
 }
 
 h6 {
+  font-size: 25px;
   font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: 600;
@@ -55,6 +102,7 @@ h6 {
 }
 
 .explore-text {
+  font-size: 10px;
   font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: 600;
