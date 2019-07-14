@@ -6,11 +6,12 @@ $screen-xlg-min: 1440px;
 $screen-4klg-min: 2560px;
 
 //Font Sizes
-$h1-fontsize: 96px;
-$h6-fontsize: 25px;
+$h1-fontsize: 119.49px;
+$h6-fontsize: 31.11px;
+$navitem-fontsize: 22.40px;
 
 //Media Queries
-/*
+
 @media (min-width: $screen-sm-min) {
   h1 {
     font-size: $h1-fontsize*0.4;
@@ -80,10 +81,10 @@ $h6-fontsize: 25px;
     font-size: $h6-fontsize*1.78 !important;
   }
 }
-*/
+
 /* Global CSS */
 h1 {
-  font-size: 96px;
+  font-size: 47.796px;
   text-align: center;
   font-family: "Nunito", sans-serif;
   line-height: 110.4%;
@@ -92,7 +93,7 @@ h1 {
 }
 
 h6 {
-  font-size: 25px;
+  font-size: 12.444px;
   font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: 600;
@@ -120,6 +121,7 @@ body {
 .custom-navbar {
   background-color: white !important;
   padding: 3.5vw 3.5vw 0;
+  width: 100%;
 }
 
 .navbar-brand {
@@ -128,14 +130,15 @@ body {
 
 .nav-item {
   padding: 0 1.75vw;
-  font-size: 18px;
   font-family: "Open Sans", sans-serif;
   color: #082d3a;
+  font-size: 8.96px !important;
 }
 
 .header-nametext {
   padding: 0 5.25vw;
   padding-top: 14.6vh;
+
 }
 
 .header-subtext {
@@ -143,6 +146,7 @@ body {
   padding-bottom: 3.8vh;
   padding-left: 5.25vw;
   padding-right: 5.25vw;
+
 }
 
 .header-button {

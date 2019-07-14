@@ -1,77 +1,51 @@
-/*
-@media (min-width: $screen-sm-min) {
+@media (min-width: 576px) {
   h1 {
-    font-size: $h1-fontsize*0.4;
-  }
+    font-size: 47.796px; }
 
   h6 {
-    font-size: $h6-fontsize*0.4;
-  }
+    font-size: 12.444px; }
 
   .explore-text {
-    font-size: $h6-fontsize*0.4;
-  }
-}
-
-@media (min-width: $screen-md-min) {
+    font-size: 12.444px; } }
+@media (min-width: 768px) {
   h1 {
-    font-size: $h1-fontsize*0.53 !important;
-  }
+    font-size: 63.3297px !important; }
 
   h6 {
-    font-size: $h6-fontsize*0.53 !important;
-  }
+    font-size: 16.4883px !important; }
 
   .explore-text {
-    font-size: $h6-fontsize*0.53 !important;
-  }
-}
-
-@media (min-width: $screen-lg-min) {
+    font-size: 16.4883px !important; } }
+@media (min-width: 1024px) {
   h1 {
-    font-size: $h1-fontsize*0.71 !important;
-  }
+    font-size: 84.8379px !important; }
 
   h6 {
-    font-size: $h6-fontsize*0.71 !important;
-  }
+    font-size: 22.0881px !important; }
 
   .explore-text {
-    font-size: $h6-fontsize*0.71 !important;
-  }
-}
-
-@media (min-width: $screen-xlg-min) {
+    font-size: 22.0881px !important; } }
+@media (min-width: 1440px) {
   h1 {
-    font-size: $h1-fontsize !important;
-  }
+    font-size: 119.49px !important; }
 
   h6 {
-    font-size: $h6-fontsize !important;
-  }
+    font-size: 31.11px !important; }
 
   .explore-text {
-    font-size: $h6-fontsize !important;
-  }
-}
-
-@media (min-width: $screen-4klg-min) {
+    font-size: 31.11px !important; } }
+@media (min-width: 2560px) {
   h1 {
-    font-size: $h1-fontsize*1.78 !important;
-  }
+    font-size: 212.6922px !important; }
 
   h6 {
-    font-size: $h6-fontsize*1.78 !important;
-  }
+    font-size: 55.3758px !important; }
 
   .explore-text {
-    font-size: $h6-fontsize*1.78 !important;
-  }
-}
-*/
+    font-size: 55.3758px !important; } }
 /* Global CSS */
 h1 {
-  font-size: 96px;
+  font-size: 47.796px;
   text-align: center;
   font-family: "Nunito", sans-serif;
   line-height: 110.4%;
@@ -79,7 +53,7 @@ h1 {
   color: #082d3a; }
 
 h6 {
-  font-size: 25px;
+  font-size: 12.444px;
   font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: 600;
@@ -102,16 +76,17 @@ body {
 
 .custom-navbar {
   background-color: white !important;
-  padding: 3.5vw 3.5vw 0; }
+  padding: 3.5vw 3.5vw 0;
+  width: 100%; }
 
 .navbar-brand {
   margin-right: 0; }
 
 .nav-item {
   padding: 0 1.75vw;
-  font-size: 18px;
   font-family: "Open Sans", sans-serif;
-  color: #082d3a; }
+  color: #082d3a;
+  font-size: 8.96px !important; }
 
 .header-nametext {
   padding: 0 5.25vw;
