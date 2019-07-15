@@ -191,17 +191,22 @@ body {
 
 .btn-viewwork {
   width: 18.75%;
-  height: 5.19%;
+  height: 5.18vh;
   background: #267491;
   border-radius: 50px;
   border-color: #267491;
   font-family: "Nunito", sans-serif;
   font-style: normal;
-  font-weight: 500;
-  font-size: 6%;
+  font-weight: 200;
+  font-size: 90%;
   /* identical to box height, or 18px */
   text-align: center;
+  color: #ffffff !important;
+}
+
+.btn-viewwork h6 {
   color: #ffffff;
+  margin-bottom: 0px;
 }
 
 .header-img {
