@@ -82,6 +82,15 @@ $navitem-fontsize: 22.36px;
   }
 }
 */
+@media (max-width: $screen-lg-min) {
+  .btn-viewwork h6 {
+    font-size: 16px !important;
+  }
+  .btn-viewwork {
+    width: 50% !important;
+    height: 5.18vh;
+  }
+}
 
 @media (min-width: $screen-sm-min) {
   .nav-item {
@@ -207,6 +216,9 @@ body {
 .btn-viewwork h6 {
   color: #ffffff;
   margin-bottom: 0px;
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: 600;
 }
 
 .header-img {
