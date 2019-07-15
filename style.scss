@@ -7,7 +7,8 @@ $screen-4klg-min: 2560px;
 
 //Font Sizes
 $h1-fontsize: 96px;
-$h6-fontsize: 25px;
+$h6-fontsize: 22.36px;
+$navitem-fontsize: 22.36px;
 
 //Media Queries
 /*
@@ -81,6 +82,43 @@ $h6-fontsize: 25px;
   }
 }
 */
+
+@media (min-width: $screen-sm-min) {
+  .nav-item {
+    font-size: $navitem-fontsize*0.4;
+  }
+}
+
+@media (min-width: $screen-md-min) {
+  .nav-item {
+    font-size: $navitem-fontsize*0.53 !important;
+  }
+}
+
+@media (min-width: $screen-lg-min) {
+  .nav-item {
+    font-size: $navitem-fontsize*0.71 !important;
+  }
+}
+
+@media (min-width: $screen-xlg-min) {
+  .nav-item {
+    font-size: $navitem-fontsize !important;
+  }
+  .explore-text {
+    font-size: $h6-fontsize !important;
+  }
+}
+
+@media (min-width: $screen-4klg-min) {
+  .nav-item {
+    font-size: $navitem-fontsize*1.78 !important;
+  }
+  .explore-text {
+    font-size: $h6-fontsize*1.78 !important;
+  }
+}
+
 /* Global CSS */
 h1 {
   font-size: 96px;
@@ -102,7 +140,6 @@ h6 {
 }
 
 .explore-text {
-  font-size: 10px;
   font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: 600;
@@ -110,6 +147,7 @@ h6 {
   color: #636363;
   text-align: center;
   padding-top: 14.24vh;
+  font-size: 18px;
 }
 
 
@@ -128,7 +166,7 @@ body {
 
 .nav-item {
   padding: 0 1.75vw;
-  font-size: 18px;
+
   font-family: "Open Sans", sans-serif;
   color: #082d3a;
 }

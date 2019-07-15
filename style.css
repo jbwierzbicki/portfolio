@@ -69,6 +69,27 @@
   }
 }
 */
+@media (min-width: 576px) {
+  .nav-item {
+    font-size: 8.944px; } }
+@media (min-width: 768px) {
+  .nav-item {
+    font-size: 11.8508px !important; } }
+@media (min-width: 1024px) {
+  .nav-item {
+    font-size: 15.8756px !important; } }
+@media (min-width: 1440px) {
+  .nav-item {
+    font-size: 22.36px !important; }
+
+  .explore-text {
+    font-size: 22.36px !important; } }
+@media (min-width: 2560px) {
+  .nav-item {
+    font-size: 39.8008px !important; }
+
+  .explore-text {
+    font-size: 39.8008px !important; } }
 /* Global CSS */
 h1 {
   font-size: 96px;
@@ -88,14 +109,14 @@ h6 {
   text-align: center; }
 
 .explore-text {
-  font-size: 10px;
   font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: 600;
   line-height: 141.8%;
   color: #636363;
   text-align: center;
-  padding-top: 14.24vh; }
+  padding-top: 14.24vh;
+  font-size: 18px; }
 
 body {
   width: 100%; }
@@ -109,7 +130,6 @@ body {
 
 .nav-item {
   padding: 0 1.75vw;
-  font-size: 18px;
   font-family: "Open Sans", sans-serif;
   color: #082d3a; }
 
